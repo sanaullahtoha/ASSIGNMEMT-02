@@ -60,3 +60,20 @@ text-align: left;
 width: 570px;
 height: 355px;
 }
+    /* OUR PLANTS */
+.our-plants{
+margin-top: 120px;
+}
+.our-plants h3{
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+  
+}
+.our-plants p{
+max-width: 888px;
+color: rgba(0, 0, 0, 0.5);
+font-size: 22px;
+font-weight: 400;
+text-align:center;
+}
