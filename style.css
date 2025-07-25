@@ -254,3 +254,42 @@ font-family: Inter;
     text-decoration: none;
    
 }
+
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    body{
+        max-width: 100%;
+    }
+    .nav-logo, .cart{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+   }
+    .card{
+        max-width: 170px;
+    }
+    .plants-lover{
+        flex-direction: column;
+    }
+    .discount-deal{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-link{
+        flex-direction: column;
+       
+    }
+    .nav-links li{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+}
