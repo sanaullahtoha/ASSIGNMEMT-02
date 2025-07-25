@@ -137,3 +137,64 @@ height: 286px;
 margin-left: -150px;
 margin-top: -120px;
 }
+/* DISCOUNT SECTION */
+.discount-heading h2{
+font-size: 50px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+.discount-heading p{
+    color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+}
+.discount-deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bloom{
+    background-image: url(./assets/deal-bloom.png);
+    color: white;
+     border-radius: 10px;
+     width: 366px;
+     height: 206px;
+} 
+
+.bloom a{
+    color: white;
+}
+.ana{
+    background-image: url(./assets/deal-ana.png);
+    color: white;
+     border-radius: 10px;
+     width: 366px;
+     height: 206px;
+}  
+
+.ana a{
+    color: white;
+}
+.zabo{
+    background-image: url(./assets/deal-zabo.png);
+    background: rgba(0, 0, 0, 0.4),url(image);
+     color: white;
+      width: 753px ;
+    height:423px ;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+.zabo  a {
+    color: white;
+}
+.discount-left{
+width: 367px;
+height: 423px;
+
+}
