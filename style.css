@@ -100,3 +100,40 @@ button{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+/* Flower and Plants Lover */
+.plants-lover{
+   display: flex;
+    margin-top: 210px;
+}
+.plants-lover-image{
+    width: 540px;
+    height: 597px;
+}
+.plants-lover-heading{
+     margin: auto;
+    padding: 30px 0px 38px 60px;
+}
+.plants-lover-heading h2{
+    width: 540px;
+    height: 137px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+}
+.plants-lover-description li{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: auto;
+}
+.badge img{
+ width: 286px;
+height: 286px;
+margin-left: -150px;
+margin-top: -120px;
+}
