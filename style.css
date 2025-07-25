@@ -224,3 +224,33 @@ justify-content: center;
 .join-input button{
     width:186px ;
 }
+/* FOOTER SECTION */
+.footer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footer-left{
+ width: 250px;
+ 
+}
+.footer-left p{
+ color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+
+}
+.footer-link ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: auto ;
+}
+.footer-logo ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+.nav-link-footer{
+    text-decoration: none;
+   
+}
